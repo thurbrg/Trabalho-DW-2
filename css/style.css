@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.elements{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 15% 1fr 1fr;
+    grid-template-rows: 10% 1fr 1fr;
+    grid-template-areas: 
+    "menu header header"
+    "menu content content"
+    "menu content content";
+    background-color: #000000;
+}
+
+.menu{
+    grid-area: menu;
+}
+
+.header{
+    grid-area: header;
+}
+
+.content{
+    grid-area: content;
+    background-color: #1A1A1A;
+    margin: 20px;
+    border-radius: 20px;
+}
