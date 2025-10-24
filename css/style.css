@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family:'Poppins';
 }
 
 .elements{
@@ -23,11 +24,55 @@
 
 .header{
     grid-area: header;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.tittle{
+    margin-left: 5%;
+}
+
+.tittle p{
+    color: #F0D85A;
+    font-size: 300%;
+}
+
+.navbar{
+    height: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar input{
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    outline: 0;
+    font-size: 100%;
+    border: none;
+    background-color: #1A1A1A;
+    color: #E4E4E4;
+    padding: 20px;
+}
+
+.icons{
+    display: flex;
+    margin-right: 10%;
+    gap: 35px;
+}
+
+.icons i{
+    color: #E4E4E4; 
+    font-size: 40px;
 }
 
 .content{
     grid-area: content;
     background-color: #1A1A1A;
-    margin: 20px;
+    margin-right: 2%;
+    margin-bottom: 2%;
     border-radius: 20px;
 }
