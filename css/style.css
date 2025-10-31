@@ -18,9 +18,6 @@
     background-color: #000000;
 }
 
-.menu{
-    grid-area: menu;
-}
 
 .header{
     grid-area: header;
@@ -35,11 +32,11 @@
 
 .tittle p{
     color: #F0D85A;
-    font-size: 300%;
+    font-size: 170%;
 }
 
 .navbar{
-    height: 50%;
+    height: 60%;
     width: 40%;
     display: flex;
     justify-content: center;
@@ -47,7 +44,7 @@
 }
 
 .navbar input{
-    height: 80%;
+    height: 30%;
     width: 80%;
     border-radius: 10px;
     outline: 0;
@@ -58,21 +55,75 @@
     padding: 20px;
 }
 
-.icons{
+.icon-header{
     display: flex;
     margin-right: 10%;
     gap: 35px;
 }
 
-.icons i{
+.icon-header i{
     color: #E4E4E4; 
-    font-size: 40px;
+    font-size: 25px;
+}
+
+
+.menu{
+    grid-area: menu;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+
+.logo img{
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+}
+
+.icon-menu{
+    color: #646464;
+    font-size: 20px;
+}
+
+.icon-menu div{
+    display: flex;
+    align-items: center;
+    margin: 40px;
+}
+
+.icon-menu div p{
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.icon-end{
+    display: flex;
+    align-items: center;
+    color: #646464;
+    font-size: 20px;
+    height: 10%;
+    margin-top: 90%;
+    margin-left: 40px;
+}
+
+.icon-end div{
+    display: flex;
+    align-items: center;
+}
+ 
+.icon-end div p{
+    font-size: 12px;
+    margin-left: 10px;
 }
 
 .content{
-    grid-area: content;
-    background-color: #1A1A1A;
-    margin-right: 2%;
-    margin-bottom: 2%;
-    border-radius: 20px;
-}
+        grid-area: content;
+        background-color: #1A1A1A;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        border-radius: 20px;
+    }
