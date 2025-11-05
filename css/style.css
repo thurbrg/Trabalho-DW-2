@@ -127,3 +127,85 @@
         margin-bottom: 2%;
         border-radius: 20px;
     }
+
+    .content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 20% 20% 1fr;
+        grid-template-areas: 
+        "top top top"
+        "crypto crypto crypto"
+        "tabel chart chart" ;
+    }
+
+    .top{
+        grid-area: top;
+        display:flex;
+        justify-content: space-between;
+
+    }
+
+    .top_tittle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 10%;
+        height: 20%;
+        font-size: 15px;
+        color: #FFFFFF;
+        margin-left: 30px;
+        margin-top: 50px;
+        
+    }
+
+    .value{
+        position: absolute;
+        display: flex;
+        width: 15%;
+        height:10%;
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+        color: #FFFFFF;
+        margin-left: 28px;
+        margin-top: 70px;
+    }
+
+    #zero{
+        font-size: 30px;
+        color: #646464;
+    }
+
+    .data{
+        display: flex;
+        width: 40%;
+        height: 100%;
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    #color_base{
+        color: #646464;
+    }
+
+    #color_red{
+        color: #F46D22;
+    }
+
+    #color_blue{
+        color: #1DD6B4;
+    }
+
+    .crypto{
+        grid-area: crypto;
+    }
+
+    .tabel{
+        grid-area: tabel;
+    }
+
+    .chart{
+        grid-area: chart;
+    }
