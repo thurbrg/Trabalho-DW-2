@@ -9,6 +9,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </head>
 <body>
     <div class="elements">
@@ -49,15 +50,72 @@
                 </div>
             </div>
             <div class="crypto">
-                <div class="BTC">
-                    <div class="logobtc"><img src="img/Btc_logo.png" alt=""></div>
+                <div class="Dados">
+                    <div class="marca"><img src="img/Btc_logo.png" alt=""></div>
                     <div class="text_card"><p>Bitcoin</p><p id="cinza">BTC</p>
-                        <p>R$ </p></div>
+                    <p id="dolar">$ 100.225</p>
+                    <p id="red">-1,42%</p></div>
+                    <div class="grafico"><img src="img/Grafico_amarelo.png" alt=""></div>
+                </div>
+                <div class="Dados">
+                    <div class="marca"><img src="img/LTC_logo.png" alt=""></div>
+                    <div class="text_card"><p>Litecoin</p><p id="cinza">LTC</p>
+                    <p id="dolar">$ 96</p>
+                    <p id="red">-0,82%</p></div>
+                    <div class="grafico"><img src="img/Grafico_cinza.png" alt=""></div>
+                </div>
+                <div class="Dados">
+                    <div class="marca"><img src="img/ETHER_logo.png" alt=""></div>
+                    <div class="text_card"><p>Ethereum</p><p id="cinza">ETHER</p>
+                    <p id="dolar">$ 3.206</p>
+                    <p id="red">-0,82%</p></div>
+                    <div class="grafico"><img src="img/Grafico_azul.png" alt=""></div>
+                </div>
+                <div class="Dados">
+                    <div class="marca"><img src="img/SOL_logo.png" alt=""></div>
+                    <div class="text_card"><p>Solana</p><p id="cinza">SOL</p>
+                    <p id="dolar">$ 144</p>
+                    <p id="red">-0,61%</p></div>
+                    <div class="grafico"><img src="img/Grafico_verde.png" alt=""></div>
                 </div>
             </div>
-         <div class="tabel"></div>
-         <div class="chart"></div>
+         <div class="tabel">
+            <div class="porty">
+                <div class="top_port"><p>Tabel</p> <p id="ponto">...</p></div>
+                <div class="data_port">
+                    <div class="port_marca"><img src="img/Btc_logo.png" alt=""></div>
+                    <div class="text_port"><p id="name">Bitcoin</p><p id="name_2">BTC</p></div>
+                    <div class="port_porc"><p>37%</p><p id="taxa">-2,5%</p></div>
+                </div>
+                <div class="data_port">
+                    <div class="port_marca"><img src="img/ETHER_logo.png" alt=""></div>
+                    <div class="text_port"><p id="name">Ethereum</p><p id="name_2">ETHER</p></div>
+                    <div class="port_porc"><p>27%</p><p id="taxa">-1,2%</p></div>
+                </div>
+                <div class="data_port">
+                    <div class="port_marca"><img src="img/LTC_logo.png" alt=""></div>
+                    <div class="text_port"><p id="name">Litecoin</p><p id="name_2">LTC</p></div>
+                    <div class="port_porc"><p>16%</p><p id="taxa_blue">+1,2%</p></div>
+                </div>
+                <div class="data_port">
+                    <div class="port_marca"><img src="img/SOL_logo.png" alt=""></div>
+                    <div class="text_port"><p id="name">Solana</p><p id="name_2">SOL</p></div>
+                    <div class="port_porc"><p>7%</p><p id="taxa_blue">+1,5%</p></div>
+                </div>
+                <div class="data_port">
+                    <div class="port_marca"><img src="img/Ripple_logo.png" alt=""></div>
+                    <div class="text_port"><p id="name">Ripple</p><p id="name_2">XRP</p></div>
+                    <div class="port_porc"><p>19%</p><p id="taxa_blue">+9,7%</p></div>
+                </div>
+            </div>
+         </div>
+         <div class="chart">
+            <div class="data_chart">
+                <div class="top_chart"><p>Chart</p></div>
+            </div>
         </div>
+    </div>
+        
     </div>
 </body>
 </html>
