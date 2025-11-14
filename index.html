@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,19 +10,22 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </head>
+
 <body>
     <div class="elements">
         <div class="header">
-            <div class="tittle"><p>DashCoin</p></div>
+            <div class="tittle">
+                <p>DashCoin</p>
+            </div>
             <div class="navbar">
                 <input type="text" placeholder="Search">
             </div>
             <div class="icon-header">
-                <i class='bxr  bx-envelope'  ></i> 
-                <i class='bxr  bx-bell'  ></i> 
-                <i class='bxr  bx-user'  ></i> 
+                <i class='bxr  bx-envelope'></i>
+                <i class='bxr  bx-bell'></i>
+                <i class='bxr  bx-user'></i>
             </div>
         </div>
         <div class="menu">
@@ -29,93 +33,195 @@
                 <img src="img/ChatGPT Image 31 de out. de 2025, 14_42_02.png" alt="">
             </div>
             <div class="icon-menu">
-                <div class="dash-icon"> <i class='bxrds  bx-dashboard'></i> <p>Dashboard</p> </div>
-                <div class="chart-icon"> <i class='bxrds  bx-pie-chart-alt'></i> <p>Chart</p> </div>
-                <div class="wallet-icon"> <i class='bxrds  bx-wallet' ></i> <p>Wallet</p> </div>
-                <div class="news-icon"> <i class='bxrds  bx-news' ></i> <p>News</p></div>
-                <div class="settings-icon"> <i class='bxrds  bx-cog' ></i> <p>Settings</p> </div>
+                <div class="dash-icon"> <i class='bxrds  bx-dashboard'></i>
+                    <p>Dashboard</p>
+                </div>
+                <div class="chart-icon"> <i class='bxrds  bx-pie-chart-alt'></i>
+                    <p>Chart</p>
+                </div>
+                <div class="wallet-icon"> <i class='bxrds  bx-wallet'></i>
+                    <p>Wallet</p>
+                </div>
+                <div class="news-icon"> <i class='bxrds  bx-news'></i>
+                    <p>News</p>
+                </div>
+                <div class="settings-icon"> <i class='bxrds  bx-cog'></i>
+                    <p>Settings</p>
+                </div>
             </div>
             <div class="icon-end">
-                <div class="log-icon"><i class='bxrds  bx-door-open bx-rotate-180'></i> <p>Log-out</p></div>
+                <div class="log-icon"><i class='bxrds  bx-door-open bx-rotate-180'></i>
+                    <p>Log-out</p>
+                </div>
             </div>
         </div>
         <div class="content">
             <div class="top">
-                <div class="top_tittle"><p>TOTAL BALENCE</p></div>
-                <div class="value"><p>$11.543</p> <p id="zero">.00</p></div>
+                <div class="top_tittle">
+                    <p>TOTAL BALENCE</p>
+                </div>
+                <div class="value">
+                    <p>$11.543</p>
+                    <p id="zero">.00</p>
+                </div>
                 <div class="data">
-                    <div class="today"><p id="color_base">Today</p><p id="color_red">-2.5%</p></div>
-                    <div class="days"><p id="color_base">7 days</p> <p id="color_blue">+4.25%</p></div>
-                    <div class="month"><p id="color_base">30 days</p> <p id="color_blue">+11.5%</p></div>
+                    <div class="today">
+                        <p id="color_base">Today</p>
+                        <p id="color_red">-2.5%</p>
+                    </div>
+                    <div class="days">
+                        <p id="color_base">7 days</p>
+                        <p id="color_blue">+4.25%</p>
+                    </div>
+                    <div class="month">
+                        <p id="color_base">30 days</p>
+                        <p id="color_blue">+11.5%</p>
+                    </div>
                 </div>
             </div>
             <div class="crypto">
                 <div class="Dados">
                     <div class="marca"><img src="img/Btc_logo.png" alt=""></div>
-                    <div class="text_card"><p>Bitcoin</p><p id="cinza">BTC</p>
-                    <p id="dolar">$ 100.225</p>
-                    <p id="red">-1,42%</p></div>
+                    <div class="text_card">
+                        <p>Bitcoin</p>
+                        <p id="cinza">BTC</p>
+                        <p id="dolar">$ 100.225</p>
+                        <p id="red">-1,42%</p>
+                    </div>
                     <div class="grafico"><img src="img/Grafico_amarelo.png" alt=""></div>
                 </div>
                 <div class="Dados">
                     <div class="marca"><img src="img/LTC_logo.png" alt=""></div>
-                    <div class="text_card"><p>Litecoin</p><p id="cinza">LTC</p>
-                    <p id="dolar">$ 96</p>
-                    <p id="red">-0,82%</p></div>
+                    <div class="text_card">
+                        <p>Litecoin</p>
+                        <p id="cinza">LTC</p>
+                        <p id="dolar">$ 96</p>
+                        <p id="red">-0,82%</p>
+                    </div>
                     <div class="grafico"><img src="img/Grafico_cinza.png" alt=""></div>
                 </div>
                 <div class="Dados">
                     <div class="marca"><img src="img/ETHER_logo.png" alt=""></div>
-                    <div class="text_card"><p>Ethereum</p><p id="cinza">ETHER</p>
-                    <p id="dolar">$ 3.206</p>
-                    <p id="red">-0,82%</p></div>
+                    <div class="text_card">
+                        <p>Ethereum</p>
+                        <p id="cinza">ETHER</p>
+                        <p id="dolar">$ 3.206</p>
+                        <p id="red">-0,82%</p>
+                    </div>
                     <div class="grafico"><img src="img/Grafico_azul.png" alt=""></div>
                 </div>
                 <div class="Dados">
                     <div class="marca"><img src="img/SOL_logo.png" alt=""></div>
-                    <div class="text_card"><p>Solana</p><p id="cinza">SOL</p>
-                    <p id="dolar">$ 144</p>
-                    <p id="red">-0,61%</p></div>
+                    <div class="text_card">
+                        <p>Solana</p>
+                        <p id="cinza">SOL</p>
+                        <p id="dolar">$ 144</p>
+                        <p id="red">-0,61%</p>
+                    </div>
                     <div class="grafico"><img src="img/Grafico_verde.png" alt=""></div>
                 </div>
             </div>
-         <div class="tabel">
-            <div class="porty">
-                <div class="top_port"><p>Tabel</p> <p id="ponto">...</p></div>
-                <div class="data_port">
-                    <div class="port_marca"><img src="img/Btc_logo.png" alt=""></div>
-                    <div class="text_port"><p id="name">Bitcoin</p><p id="name_2">BTC</p></div>
-                    <div class="port_porc"><p>37%</p><p id="taxa">-2,5%</p></div>
-                </div>
-                <div class="data_port">
-                    <div class="port_marca"><img src="img/ETHER_logo.png" alt=""></div>
-                    <div class="text_port"><p id="name">Ethereum</p><p id="name_2">ETHER</p></div>
-                    <div class="port_porc"><p>27%</p><p id="taxa">-1,2%</p></div>
-                </div>
-                <div class="data_port">
-                    <div class="port_marca"><img src="img/LTC_logo.png" alt=""></div>
-                    <div class="text_port"><p id="name">Litecoin</p><p id="name_2">LTC</p></div>
-                    <div class="port_porc"><p>16%</p><p id="taxa_blue">+1,2%</p></div>
-                </div>
-                <div class="data_port">
-                    <div class="port_marca"><img src="img/SOL_logo.png" alt=""></div>
-                    <div class="text_port"><p id="name">Solana</p><p id="name_2">SOL</p></div>
-                    <div class="port_porc"><p>7%</p><p id="taxa_blue">+1,5%</p></div>
-                </div>
-                <div class="data_port">
-                    <div class="port_marca"><img src="img/Ripple_logo.png" alt=""></div>
-                    <div class="text_port"><p id="name">Ripple</p><p id="name_2">XRP</p></div>
-                    <div class="port_porc"><p>19%</p><p id="taxa_blue">+9,7%</p></div>
+            <div class="tabel">
+                <div class="porty">
+                    <div class="top_port">
+                        <p>Tabel</p>
+                        <p id="ponto">...</p>
+                    </div>
+                    <div class="data_port">
+                        <div class="port_marca"><img src="img/Btc_logo.png" alt=""></div>
+                        <div class="text_port">
+                            <p id="name">Bitcoin</p>
+                            <p id="name_2">BTC</p>
+                        </div>
+                        <div class="port_porc">
+                            <p>37%</p>
+                            <p id="taxa">-2,5%</p>
+                        </div>
+                    </div>
+                    <div class="data_port">
+                        <div class="port_marca"><img src="img/ETHER_logo.png" alt=""></div>
+                        <div class="text_port">
+                            <p id="name">Ethereum</p>
+                            <p id="name_2">ETHER</p>
+                        </div>
+                        <div class="port_porc">
+                            <p>27%</p>
+                            <p id="taxa">-1,2%</p>
+                        </div>
+                    </div>
+                    <div class="data_port">
+                        <div class="port_marca"><img src="img/LTC_logo.png" alt=""></div>
+                        <div class="text_port">
+                            <p id="name">Litecoin</p>
+                            <p id="name_2">LTC</p>
+                        </div>
+                        <div class="port_porc">
+                            <p>16%</p>
+                            <p id="taxa_blue">+1,2%</p>
+                        </div>
+                    </div>
+                    <div class="data_port">
+                        <div class="port_marca"><img src="img/SOL_logo.png" alt=""></div>
+                        <div class="text_port">
+                            <p id="name">Solana</p>
+                            <p id="name_2">SOL</p>
+                        </div>
+                        <div class="port_porc">
+                            <p>7%</p>
+                            <p id="taxa_blue">+1,5%</p>
+                        </div>
+                    </div>
+                    <div class="data_port">
+                        <div class="port_marca"><img src="img/Ripple_logo.png" alt=""></div>
+                        <div class="text_port">
+                            <p id="name">Ripple</p>
+                            <p id="name_2">XRP</p>
+                        </div>
+                        <div class="port_porc">
+                            <p>19%</p>
+                            <p id="taxa_blue">+9,7%</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-         </div>
-         <div class="chart">
-            <div class="data_chart">
-                <div class="top_chart"><p>Chart</p></div>
+            <div class="chart">
+                <div class="data_chart">
+                    <div class="top_chart">
+                        <p>Chart</p>
+                        <div class="escolha"><p>BTC ></p></div>
+                    </div>
+                    <div class="chart_js">
+                        <canvas id="myChart"></canvas>
+                    </div>
+                </div>
             </div>
         </div>
+
     </div>
-        
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        const ctx = document.getElementById('myChart');
+
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['1D', '5D', '1M', '2M', '6M', '1A'],
+                datasets: [{
+                    label: '2025',
+                    data: [100, 56, 78, 65, 70, 81],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
 </body>
+
 </html>
